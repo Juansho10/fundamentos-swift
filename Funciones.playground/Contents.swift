@@ -38,5 +38,6 @@ calcularNota(nota2: 2)
 calcularNota(nota2: 3)
 calcularNota(nota2: 4)
 calcularNota(nota2: 5)
+calcularNota(nota2: 4.5)
 
 
