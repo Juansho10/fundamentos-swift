@@ -41,5 +41,3 @@ calcularNota(nota2: 5)
 calcularNota(nota2: 4.5)
 
 // Funciones y sus tipos
-
-func sumaEje 
