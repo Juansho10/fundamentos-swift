@@ -18,6 +18,13 @@ print(animales)
 animales.remove("Perro")
 print(animales)
 
+let matematicas = Set<String>(["Adriana","Laura","Manuela"])
+let espanol = Set<String>(["Luisa","Andrea","Elisa","Sofia", "Laura", "Manuela"])
 
+let union = matematicas.union(espanol)
+print(union)
+
+let interseccion = matematicas.intersection(espanol)
+print(interseccion)
 
 
