@@ -41,12 +41,17 @@ let habitantesPorPais: [String: Int] = [
 ]
 
 func getHabtiantesPorPais(pais: String) -> String {
-    //let validación = pais
-    //pendiente
-    return "En \(pais) viven \(habitantesPorPais[pais] ?? 0) habitantes"
+    let validación = habitantesPorPais.keys.contains(pais)
+    if(validación == true){
+        return "En \(pais) viven \(habitantesPorPais[pais]!) habitantes"
+    } else {
+        return "No tengo datos suficientes para generar esa respuesta"
+    }
 }
 
 print(getHabtiantesPorPais(pais: "India"))
 print(getHabtiantesPorPais(pais: "Canada"))
 print(getHabtiantesPorPais(pais: "Estados Unidos"))
 print(getHabtiantesPorPais(pais: "Colombia"))
+ 
+
