@@ -53,5 +53,8 @@ print(getHabtiantesPorPais(pais: "India"))
 print(getHabtiantesPorPais(pais: "Canada"))
 print(getHabtiantesPorPais(pais: "Estados Unidos"))
 print(getHabtiantesPorPais(pais: "Colombia"))
+
+// validaciones por hacer: Opcionales, funciones, dicionarios.
+// sacar lista de ejercicios para hacer. 
  
 
