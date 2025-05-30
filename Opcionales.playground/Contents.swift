@@ -31,3 +31,8 @@ func selecColor (color: String?) {
 
 selecColor(color: "Rojo")
 selecColor(color: nil)
+
+var nombreMedico: String? = nil
+nombreMedico = "Dr. Juan"
+
+
