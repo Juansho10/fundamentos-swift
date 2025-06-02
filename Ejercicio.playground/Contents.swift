@@ -32,4 +32,5 @@ func simularBatallaPokemon(pokemonA: [String: Int], pokemonB: [String: Int]) -> 
 let resultado = simularBatallaPokemon(pokemonA: pikachu, pokemonB: charmander)
 print(resultado)
 
+// hola
 
