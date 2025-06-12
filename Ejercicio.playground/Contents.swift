@@ -29,8 +29,8 @@ func simularBatallaPokemon(pokemonA: [String: Int], pokemonB: [String: Int]) -> 
     return ""
 }
 
-let resultado = simularBatallaPokemon(pokemonA: pikachu, pokemonB: charmander)
-print(resultado)
+//let resultado = simularBatallaPokemon(pokemonA: pikachu, pokemonB: charmander)
+//print(resultado)
 
 // hola
 
